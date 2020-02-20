@@ -12,6 +12,126 @@ div.listJumbo {
     font-size: 22px;
     font-family: 'Oswald', sans-serif;
 }
+
+.chooseProfile, .chooseSelect {
+    /* margin-top: -150px; */
+    margin-left: 200px;
+    margin-bottom: -300px;
+}
 body {
     background-image: linear-gradient(to bottom right, rgb(201, 133, 6), rgb(82, 8, 82));
   }
+
+
+  /* #img-swap {
+    position:relative;
+    height:281px;
+    width:450px;
+    margin:0 auto;
+  }
+
+  #img-swap img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+
+  @keyframes cf3FadeInOut {
+    0% {
+    opacity:1;
+  }
+  45% {
+  opacity:1;
+  }
+  55% {
+  opacity:0;
+  }
+  100% {
+  opacity:0;
+  }
+  }
+  
+  .char-img {
+  animation-name: cf3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  width: 400px;
+  height: 400px;
+  float: center;
+  } */
+
+
+  .sober, .soberDrink, .tipsy, .tipsyDrink, .drunk, .drunkDrink, .cold, .drinking, .drinking-two, .drinking-three {
+    width:400px;
+    height:400px;
+    position:fixed;
+    z-index:-1;
+    animation-name: test;
+    animation-duration: 3s;
+    opacity:0;
+    margin-left: 33%;
+}
+.soberDrink {
+    animation-delay:3s;
+    -webkit-animation-delay:3s
+}
+.drinking {
+    animation-delay:6s;
+    -webkit-animation-delay:6s
+}
+.tipsy {
+    animation-delay:9s;
+    -webkit-animation-delay:9s
+}
+.tipsyDrink {
+    animation-delay:12s;
+    -webkit-animation-delay:12s
+}
+.drinking-two {
+    animation-delay:15s;
+    -webkit-animation-delay:15s
+}
+
+.drunk {
+    animation-delay:18s;
+    -webkit-animation-delay:18s
+}
+.drunkDrink {
+    animation-delay:21s;
+    -webkit-animation-delay:21s
+}
+.drinking-three {
+    animation-delay:24s;
+    -webkit-animation-delay:24s
+}
+.cold {
+    animation-delay:35s;
+    -webkit-animation-delay:28s
+}
+
+@-webkit-keyframes test {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+    }
+}
+@keyframes test {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+    }
+}
+
