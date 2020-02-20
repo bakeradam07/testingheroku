@@ -1,3 +1,4 @@
 module.exports = {
-  Book: require("./book")
+  Drink: require("./drinks"),
+  Movie: require("./movie")
 };
