@@ -83,10 +83,10 @@ class Drinks extends Component {
                 name="ingredients"
                 placeholder="Ingredients (Optional)"
               />
-              <FormBtn>
+              <FormBtn
                 disabled={!(this.state.drink)}
                 onClick={this.handleFormSubmit}
-              
+              >
                 Submit Drink
               </FormBtn>
             </form>
