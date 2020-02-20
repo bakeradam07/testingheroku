@@ -12,12 +12,12 @@ import MOVIE from "../utils/MOVIE";
  
 class Profile extends Component {
     state = { img: [
-      './Eliza.png',
-      './Bert.png',
-      './Brendan.png',
-      './Deborah.png',
-      './Weesley.png',
-      './Steve.png'
+      './Eliza.PNG',
+      './Bert.PNG',
+      './Brendan.PNG',
+      './Deborah.PNG',
+      './Weesley.PNG',
+      './Steve.PNG'
     ],
     records: [],
     status: "",

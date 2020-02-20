@@ -16,7 +16,6 @@ div.listJumbo {
 .chooseProfile, .chooseSelect {
     /* margin-top: -150px; */
     margin-left: 200px;
-    margin-bottom: -300px;
 }
 body {
     background-image: linear-gradient(to bottom right, rgb(201, 133, 6), rgb(82, 8, 82));

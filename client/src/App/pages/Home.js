@@ -42,13 +42,13 @@ class Home extends Component {
         <div id = "img-swap">
       <img class="char-img sober" src="./Sober.PNG" />
       <img class="char-img soberDrink" src="./SoberDrink.png" />
-      <img class="char-img drinking" src="./Drinking.PNG" />
+      <img class="char-img drinking" src="./Drinking.png" />
       <img class="char-img tipsy" src="./Tipsy.png" />
       <img class="char-img tipsyDrink" src="./TipsyDrink.png" />
-      <img class="char-img drinking-two" src="./Drinking.PNG" />
+      <img class="char-img drinking-two" src="./Drinking.png" />
       <img class="char-img drunk" src="./Drunk.png" />
       <img class="char-img drunkDrink" src="./DrunkDrink.png" />
-      <img class="char-img drinking-three" src="./Drinking.PNG" />
+      <img class="char-img drinking-three" src="./Drinking.png" />
       <img class="char-img cold" src="./OutCold.png" />
       </div>
 
